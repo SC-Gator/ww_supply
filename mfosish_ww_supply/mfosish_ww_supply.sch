@@ -546,7 +546,7 @@ $EndComp
 Wire Wire Line
 	2800 5000 3550 5000
 Wire Wire Line
-	2800 3900 2800 3000
+	2800 3900 2800 3400
 Wire Wire Line
 	2800 3000 3050 3000
 Wire Wire Line
@@ -556,9 +556,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 4000 2800 4500
 Wire Wire Line
-	2800 4000 2650 4000
-Wire Wire Line
-	2800 3900 2650 3900
+	2800 4000 2750 4000
 Connection ~ 2800 3900
 Text Label 9000 3700 0    50   ~ 0
 +12V
@@ -594,4 +592,29 @@ F 3 "~" H 2450 4000 50  0001 C CNN
 	1    2450 4000
 	-1   0    0    1   
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 5FB8707E
+P 2450 3500
+F 0 "J4" H 2368 3717 50  0000 C CNN
+F 1 "Conn_01x02" H 2368 3626 50  0000 C CNN
+F 2 "ao_tht:Wall_wart_A-4118" H 2450 3500 50  0001 C CNN
+F 3 "~" H 2450 3500 50  0001 C CNN
+	1    2450 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 3900 2650 3900
+Wire Wire Line
+	2650 3500 2750 3500
+Wire Wire Line
+	2750 3500 2750 4000
+Connection ~ 2750 4000
+Wire Wire Line
+	2750 4000 2650 4000
+Wire Wire Line
+	2650 3400 2800 3400
+Connection ~ 2800 3400
+Wire Wire Line
+	2800 3400 2800 3000
 $EndSCHEMATC
