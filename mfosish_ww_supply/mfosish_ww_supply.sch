@@ -596,8 +596,8 @@ $Comp
 L Connector_Generic:Conn_01x03 J4
 U 1 1 5FB8707E
 P 2450 3500
-F 0 "J4" H 2368 3717 50  0000 C CNN
-F 1 "Conn_01x03" H 2368 3626 50  0000 C CNN
+F 0 "J4" H 2350 3800 50  0000 C CNN
+F 1 "Conn_01x03" H 2350 3700 50  0000 C CNN
 F 2 "ao_tht:Wall_wart_A-4118" H 2450 3500 50  0001 C CNN
 F 3 "~" H 2450 3500 50  0001 C CNN
 	1    2450 3500
@@ -608,7 +608,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 3500 2750 3500
 Wire Wire Line
-	2750 3500 2750 4000
+	2750 3500 2750 3600
 Connection ~ 2750 4000
 Wire Wire Line
 	2750 4000 2650 4000
@@ -617,5 +617,9 @@ Wire Wire Line
 Connection ~ 2800 3400
 Wire Wire Line
 	2800 3400 2800 3000
-NoConn ~ 2650 3600
+Wire Wire Line
+	2650 3600 2750 3600
+Connection ~ 2750 3600
+Wire Wire Line
+	2750 3600 2750 4000
 $EndSCHEMATC
