@@ -19,7 +19,7 @@ U 1 1 5FB3DAAC
 P 3200 3000
 F 0 "D1" H 3200 2783 50  0000 C CNN
 F 1 "1N4004" H 3200 2874 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3200 2825 50  0001 C CNN
+F 2 "ao_tht:D_DO-41_SOD81_P10.16mm_Horizontal" H 3200 2825 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3200 3000 50  0001 C CNN
 	1    3200 3000
 	-1   0    0    1   
@@ -96,7 +96,7 @@ U 1 1 5FB43E0A
 P 6000 2550
 F 0 "D3" H 6000 2767 50  0000 C CNN
 F 1 "1N4004" H 6000 2676 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 6000 2375 50  0001 C CNN
+F 2 "ao_tht:D_DO-41_SOD81_P10.16mm_Horizontal" H 6000 2375 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 6000 2550 50  0001 C CNN
 	1    6000 2550
 	1    0    0    -1  
@@ -107,7 +107,7 @@ U 1 1 5FB44AA2
 P 7050 3300
 F 0 "D5" V 7004 3380 50  0000 L CNN
 F 1 "1N4004" V 7095 3380 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 7050 3125 50  0001 C CNN
+F 2 "ao_tht:D_DO-41_SOD81_P10.16mm_Horizontal" H 7050 3125 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 7050 3300 50  0001 C CNN
 	1    7050 3300
 	0    1    1    0   
@@ -207,7 +207,7 @@ U 1 1 5FB4B502
 P 3200 4400
 F 0 "D2" H 3200 4617 50  0000 C CNN
 F 1 "1N4004" H 3200 4526 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3200 4225 50  0001 C CNN
+F 2 "ao_tht:D_DO-41_SOD81_P10.16mm_Horizontal" H 3200 4225 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 3200 4400 50  0001 C CNN
 	1    3200 4400
 	1    0    0    -1  
@@ -284,7 +284,7 @@ U 1 1 5FB4B56A
 P 6000 3950
 F 0 "D4" H 6000 3733 50  0000 C CNN
 F 1 "1N4004" H 6000 3824 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 6000 3775 50  0001 C CNN
+F 2 "ao_tht:D_DO-41_SOD81_P10.16mm_Horizontal" H 6000 3775 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 6000 3950 50  0001 C CNN
 	1    6000 3950
 	-1   0    0    1   
@@ -295,7 +295,7 @@ U 1 1 5FB4B574
 P 7050 4700
 F 0 "D6" V 7096 4620 50  0000 R CNN
 F 1 "1N4004" V 7005 4620 50  0000 R CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 7050 4525 50  0001 C CNN
+F 2 "ao_tht:D_DO-41_SOD81_P10.16mm_Horizontal" H 7050 4525 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 7050 4700 50  0001 C CNN
 	1    7050 4700
 	0    -1   -1   0   
@@ -397,7 +397,7 @@ U 1 1 5FB901C2
 P 8250 3300
 F 0 "R1" V 8043 3300 50  0000 C CNN
 F 1 "2.4k" V 8134 3300 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8180 3300 50  0001 C CNN
+F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8180 3300 50  0001 C CNN
 F 3 "~" H 8250 3300 50  0001 C CNN
 	1    8250 3300
 	0    1    1    0   
@@ -443,7 +443,7 @@ U 1 1 5FB93ABA
 P 8250 4700
 F 0 "R2" V 8043 4700 50  0000 C CNN
 F 1 "2.4k" V 8134 4700 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8180 4700 50  0001 C CNN
+F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8180 4700 50  0001 C CNN
 F 3 "~" H 8250 4700 50  0001 C CNN
 	1    8250 4700
 	0    1    1    0   
@@ -533,10 +533,10 @@ Connection ~ 8500 4400
 Wire Wire Line
 	8500 4400 9000 4400
 $Comp
-L Connector_Generic:Conn_01x03 J2
+L Connector_Generic:Conn_01x03 J4
 U 1 1 5FBAE405
 P 9300 3950
-F 0 "J2" H 9380 3992 50  0000 L CNN
+F 0 "J4" H 9380 3992 50  0000 L CNN
 F 1 "Conn_01x03" H 9380 3901 50  0000 L CNN
 F 2 "ao_tht:TerminalBlock_Degson_DG301_1x03_P5.00mm_Vertical" H 9300 3950 50  0001 C CNN
 F 3 "~" H 9300 3950 50  0001 C CNN
@@ -582,10 +582,10 @@ Connection ~ 2800 4500
 Wire Wire Line
 	2800 4500 2800 5000
 $Comp
-L Connector_Generic:Conn_01x02 J1
+L Connector_Generic:Conn_01x02 J2
 U 1 1 5FB71317
 P 2450 4000
-F 0 "J1" H 2368 4217 50  0000 C CNN
+F 0 "J2" H 2368 4217 50  0000 C CNN
 F 1 "Conn_01x02" H 2368 4126 50  0000 C CNN
 F 2 "ao_tht:TerminalBlock_dinkle_pluggable_2_P5.00mm" H 2450 4000 50  0001 C CNN
 F 3 "~" H 2450 4000 50  0001 C CNN
@@ -593,10 +593,10 @@ F 3 "~" H 2450 4000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J4
+L Connector_Generic:Conn_01x03 J1
 U 1 1 5FB8707E
 P 2450 3500
-F 0 "J4" H 2350 3800 50  0000 C CNN
+F 0 "J1" H 2350 3800 50  0000 C CNN
 F 1 "Conn_01x03" H 2350 3700 50  0000 C CNN
 F 2 "ao_tht:Wall_wart_A-4118" H 2450 3500 50  0001 C CNN
 F 3 "~" H 2450 3500 50  0001 C CNN
@@ -622,4 +622,86 @@ Wire Wire Line
 Connection ~ 2750 3600
 Wire Wire Line
 	2750 3600 2750 4000
+$Comp
+L Mechanical:Heatsink HS1
+U 1 1 6094FA26
+P 1600 6150
+F 0 "HS1" H 1742 6271 50  0000 L CNN
+F 1 "Heatsink" H 1742 6180 50  0000 L CNN
+F 2 "ao_tht:Heatsink_17x17mm_A-5093" H 1612 6150 50  0001 C CNN
+F 3 "~" H 1612 6150 50  0001 C CNN
+	1    1600 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Heatsink HS2
+U 1 1 6094FE1E
+P 2600 6150
+F 0 "HS2" H 2742 6271 50  0000 L CNN
+F 1 "Heatsink" H 2742 6180 50  0000 L CNN
+F 2 "ao_tht:Heatsink_17x17mm_A-5093" H 2612 6150 50  0001 C CNN
+F 3 "~" H 2612 6150 50  0001 C CNN
+	1    2600 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:MountingHole H1
+U 1 1 60953CA8
+P 1500 6500
+F 0 "H1" H 1600 6546 50  0000 L CNN
+F 1 "MountingHole" H 1600 6455 50  0000 L CNN
+F 2 "ao_tht:MountingHole_3.2mm_M3" H 1500 6500 50  0001 C CNN
+F 3 "" H 1500 6500 50  0001 C CNN
+F 4 "DNF" H 1500 6500 50  0001 C CNN "Config"
+	1    1500 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:Graphic GRAF1
+U 1 1 60954B4A
+P 1750 7100
+F 0 "GRAF1" H 2028 7146 50  0000 L CNN
+F 1 "AO logo" H 2028 7055 50  0000 L CNN
+F 2 "ao_tht:analogoutput_12mm" H 1750 7100 50  0001 C CNN
+F 3 "" H 1750 7100 50  0001 C CNN
+F 4 "DNF" H 1750 7100 50  0001 C CNN "Config"
+	1    1750 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:MountingHole H2
+U 1 1 60955174
+P 1500 6750
+F 0 "H2" H 1600 6796 50  0000 L CNN
+F 1 "MountingHole" H 1600 6705 50  0000 L CNN
+F 2 "ao_tht:MountingHole_3.2mm_M3" H 1500 6750 50  0001 C CNN
+F 3 "" H 1500 6750 50  0001 C CNN
+F 4 "DNF" H 1500 6750 50  0001 C CNN "Config"
+	1    1500 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:MountingHole H3
+U 1 1 6095598D
+P 2500 6500
+F 0 "H3" H 2600 6546 50  0000 L CNN
+F 1 "MountingHole" H 2600 6455 50  0000 L CNN
+F 2 "ao_tht:MountingHole_3.2mm_M3" H 2500 6500 50  0001 C CNN
+F 3 "" H 2500 6500 50  0001 C CNN
+F 4 "DNF" H 2500 6500 50  0001 C CNN "Config"
+	1    2500 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ao_symbols:MountingHole H4
+U 1 1 60955994
+P 2500 6750
+F 0 "H4" H 2600 6796 50  0000 L CNN
+F 1 "MountingHole" H 2600 6705 50  0000 L CNN
+F 2 "ao_tht:MountingHole_3.2mm_M3" H 2500 6750 50  0001 C CNN
+F 3 "" H 2500 6750 50  0001 C CNN
+F 4 "DNF" H 2500 6750 50  0001 C CNN "Config"
+	1    2500 6750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
