@@ -1,4 +1,5 @@
-# mfosish_ww_supply.sch BOM
+# Deprecated! Use the ibom (link in README)
+### mfosish_ww_supply.sch BOM
 
 Wed 18 Nov 2020 07:30:47 PM EST
 
