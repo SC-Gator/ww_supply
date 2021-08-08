@@ -1,0 +1,16 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"H4,H4,H4,H4,H4,H2,H3,H1";"MountingHole_3.2mm_M3";8;"MountingHole";;;
+2;"J4,J4";"TerminalBlock_Degson_DG301_1x03_P5.00mm_Vertical";2;"Conn_01x03";;;
+3;"J16,J15,J14,J13,J12,J11,J10,J9,J8,J7,J6,J5";"Power_Header";12;"Synth_power_2x5";;;
+4;"D6,D5,D4,D3,D2,D1";"D_DO-41_SOD81_P10.16mm_Horizontal";6;"1N4004";;;
+5;"R2,R1";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";2;"2.4k";;;
+6;"HS2,HS1";"Heatsink_17x17mm_A-5093";2;"Heatsink";;;
+7;"GRAF1";"analogoutput_12mm";1;"AO logo";;;
+8;"F2,F1";"PPTC_RXEF110";2;"Polyfuse";;;
+9;"J1";"Wall_wart_A-4118";1;"Conn_01x03";;;
+10;"C7,C8,C10,C9";"CP_Radial_Tantal_D4.5mm_P2.50mm";4;"1uF";;;
+11;"J3,J2";"TerminalBlock_dinkle_pluggable_2_P5.00mm";2;"Conn_01x02";;;
+12;"U2";"TO-220-3_Vertical";1;"LM7912_TO220";;;
+13;"C1,C6,C5,C4,C3,C2";"CP_Radial_D18.0mm_P7.50mm";6;"3300uF";;;
+14;"U1";"TO-220-3_Vertical";1;"LM7812_TO220";;;
+15;"D8,D7";"LED_D3.0mm";2;"LED";;;
